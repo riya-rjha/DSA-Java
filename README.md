@@ -15,3 +15,6 @@ Create an expected array for heights of students stored in nums & find out the n
 ### Solution
 
 Sort the array & store it in the expected array. Compare the values & increment count. 
+
+## Relative Sort Arrat (Easy)
+
