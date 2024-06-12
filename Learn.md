@@ -16,11 +16,13 @@ Create an expected array for heights of students stored in nums & find out the n
 
 Sort the array & store it in the expected array. Compare the values & increment count. 
 
-## Relative Sort Arrat (Easy)
+## Relative Sort Array (Easy)
 
 ### Brute force
 
 Create a hashmap which holds every value and the number of times it occurred in the array. Create an arraylist and append all the numbers in it in the same order as that of second array. Create a second arraylist for the remaining numbers of first array and add both the arraylists using Collections method. At last store the values in an array & return.
 
 ### Optimized Soln 
+
+## Sort Colors (Medium)
 

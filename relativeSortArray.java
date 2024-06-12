@@ -2,12 +2,6 @@ import java.util.*;
 
 public class relativeSortArray {
 
-    public static void printArr(int arr[]) {
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
-        }
-    }
-
     public static int[] sortRelArr(int[] arr1, int[] arr2) {
         // Creating a Hash Table
         HashMap<Integer, Integer> hm = new HashMap<>();
@@ -65,6 +59,6 @@ public class relativeSortArray {
         int arr2[] = { 22, 28, 8, 6 };
 
         int ans[] = sortRelArr(arr1, arr2);
-        printArr(ans);
+        System.out.println(Arrays.toString(ans));
     }
 }
