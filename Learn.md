@@ -33,3 +33,7 @@ TC - O(n)
 ## Sort Colors (Medium)
 
 Given an array, sort it in-place. Used counting sort for better time complexity & ease. 
+
+## Minimum number of moves to seat everyone
+
+Given two arras of students & seats where in you are supposed to change the positions of the students by moving the place of student through minimum moves such that it is placed in the nearest position of the number present in seats array. The idea to solve this is to just simply sort both the arrays and find the absolute difference of each index of both arrays such that we may find the minimum required moves to shift the position to the nearest place of the student in the seat.
