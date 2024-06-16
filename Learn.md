@@ -34,9 +34,21 @@ TC - O(n)
 
 Given an array, sort it in-place. Used counting sort for better time complexity & ease. 
 
-## Minimum number of moves to seat everyone
+## Minimum number of moves to seat everyone (Easy)
 
 Given two arrays of students & seats where in you are supposed to change the positions of the students by moving the place of student through minimum moves such that it is placed in the nearest position of the number present in seats array. The idea to solve this is to just simply sort both the arrays and find the absolute difference of each index of both arrays such that we may find the minimum required moves to shift the position to the nearest place of the student in the seat.
 
-## Minimum Increment to make array unique
+## Minimum Increment to make array unique (Medium)
+
+Calculate the minimum number of moves required to make the array unique. If the previous number is same as the current number, increment the current number by 1.
+
+### Solution
+
+Sort the array first for ease & start the iteration from first index. Check for every element if the previous element is either equal to or greater than the current element. If yes then calculate the number of moves that will be required to atleast make the current element greater than the previous one. Then replace the current element by incrementing the previous element by 1.
+
+## IPO - Initial Public Offering (Hard)
+
+Leetcode is going to start it's IPO and has to sell it's shares at the maximum capital to get the maximum profit. It is supposed to sell atmost 'k' projects & has an initial capital 'w'. Given an array of profits & capitals. Using the initial capital 'w', one can buy capital with maximum profit. Return the maximized final profit.
+
+### Solution
 
