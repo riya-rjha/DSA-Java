@@ -5,9 +5,9 @@ public class sumOfSquareNo {
     // TLE Error
     // TC - O(n)
     public static boolean judgeSquareSumBruteForce(int c) {
-        for(int i=0; i*i<=c; i++){
-            for(int j=0; j*j<=c; j++){
-                if((i*i+j*j) == c){
+        for (int i = 0; i * i <= c; i++) {
+            for (int j = 0; j * j <= c; j++) {
+                if ((i * i + j * j) == c) {
                     return true;
                 }
             }
@@ -19,10 +19,10 @@ public class sumOfSquareNo {
     // O(root c * log c)
     // O(Root c) - iteration over c
     // O(log c) - Finding square root of b
-    public static boolean judgeSquareSumOptimizedBruteForce(int c){
-        for(long a = 0; a*a<=c; a++){
-            double b = Math.sqrt(c - a*a);
-            if(b == (int) b){
+    public static boolean judgeSquareSumOptimizedBruteForce(int c) {
+        for (long a = 0; a * a <= c; a++) {
+            double b = Math.sqrt(c - a * a);
+            if (b == (int) b) {
                 return true;
             }
         }
@@ -31,7 +31,7 @@ public class sumOfSquareNo {
 
     // Binary Search
     // O(root c * log c)
-    public static boolean binSearchJudgeSquareSum(int c){
+    public static boolean binSearchJudgeSquareSum(int c) {
         return false;
     }
 
