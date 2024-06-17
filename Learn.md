@@ -52,3 +52,14 @@ Leetcode is going to start it's IPO and has to sell it's shares at the maximum c
 
 ### Solution
 
+Follow the steps to get the correct answer: 
+
+1. Create a class Project with two instances - capital & profit.
+2. Create an arrayList and add for every member two values, profit[i] & capital[i].
+3. Sort the list in ascending order according to the capital such that we can find the minimum possible value according to the initial capital amount - w.
+4. Create a Priority Queue & by default Java defines the priority queue as a minHeap. Use comparator to reverse the minHeap, thus converting it into a maxHeap.
+5. Check for every iteration upto k(atmost projects) if current capital is less than or equal to w, then add the profit in the maxHeap.
+6. If heap turns out to be empty, break from the loop otherwise continue adding the profit stored in the maxHeap by polling it and add to w.
+
+## Sum of Square Numbers
+
