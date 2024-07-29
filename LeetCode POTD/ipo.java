@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class ipo {
+public class IPO {
 
     private static class Project {
         int capital;

@@ -1,4 +1,4 @@
-public class floor {
+public class Floor {
     // Return the largest number in the array
     // smaller than or equal to the target number
 

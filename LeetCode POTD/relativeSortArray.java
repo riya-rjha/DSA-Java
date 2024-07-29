@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class relativeSortArray {
+public class RelativeSortArray {
 
     public static int[] sortRelArr(int[] arr1, int[] arr2) {
         // Creating a Hash Table

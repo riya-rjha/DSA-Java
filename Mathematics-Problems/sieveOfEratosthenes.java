@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class sieveOfEratosthenes {
+public class SieveOfEratosthenes {
 
     public static void printPrimes(int n) {
         boolean isPrime[] = new boolean[n + 1];

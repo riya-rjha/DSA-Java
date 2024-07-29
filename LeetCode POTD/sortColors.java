@@ -1,6 +1,6 @@
 import utils.printArrUtility;
 
-public class sortColors {
+public class SortColors {
 
     public static void sortColor(int[] nums) {
         // In-Place Sorting Algorithm

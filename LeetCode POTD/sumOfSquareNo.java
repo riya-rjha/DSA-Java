@@ -1,4 +1,4 @@
-public class sumOfSquareNo {
+public class SumOfSquareNo {
 
     // TLE Error
     // TC - O(n)

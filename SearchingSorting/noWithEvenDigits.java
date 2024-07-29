@@ -1,4 +1,4 @@
-public class noWithEvenDigits {
+public class NoWithEvenDigits {
 
     public static int findNoOfDigits(int n) {
         int count = 0;

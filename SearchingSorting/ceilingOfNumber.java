@@ -1,4 +1,4 @@
-public class ceilingOfNumber {
+public class CeilingOfNumber {
 
     // Ceiling of a number means return the smallest number in the array
     // greater than or equal to the target number

@@ -1,4 +1,4 @@
-public class smallestLetterGreater {
+public class SmallestLetterGreater {
 
     public static char nextGreatestLetter(char[] letters, char target) {
         int start = 0;

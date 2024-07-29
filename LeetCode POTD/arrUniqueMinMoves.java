@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class arrUniqueMinMoves {
+public class ArrUniqueMinMoves {
 
     public static int minIncrementForUnique(int[] nums) {
         int no_of_moves = 0;

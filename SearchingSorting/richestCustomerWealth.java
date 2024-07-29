@@ -1,4 +1,4 @@
-public class richestCustomerWealth {
+public class RichestCustomerWealth {
 
     public int maximumWealth(int[][] accounts) {
         int max = Integer.MIN_VALUE;
@@ -14,7 +14,7 @@ public class richestCustomerWealth {
 
     public static void main(String[] args) {
         int[][] accounts = { { 1, 5 }, { 7, 3 }, { 3, 5 } };
-        richestCustomerWealth ans = new richestCustomerWealth();
+        RichestCustomerWealth ans = new RichestCustomerWealth();
         System.out.println(ans.maximumWealth(accounts));
     }
 }

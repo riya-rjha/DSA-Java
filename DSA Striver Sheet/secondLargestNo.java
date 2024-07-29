@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class secondLargestNo {
+public class SecondLargestNo {
 
     // 2 Methods - Brute Force -> Find largest element in array then check if each
     // element of array is not equal to the largest element and compare with every
@@ -45,8 +45,8 @@ public class secondLargestNo {
 
     public static void main(String[] args) {
         List<Integer> lst = new ArrayList<>();
-        secondLargestNo num1 = new secondLargestNo();
-        secondLargestNo num2 = new secondLargestNo();
+        SecondLargestNo num1 = new SecondLargestNo();
+        SecondLargestNo num2 = new SecondLargestNo();
         lst.add(12);
         lst.add(35);
         lst.add(1);

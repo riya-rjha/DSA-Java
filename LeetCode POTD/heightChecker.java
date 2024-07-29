@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class heightChecker {
+public class HeightChecker {
 
     public static int checkHeight(int[] heights) {
         int[] expected = new int[heights.length];

@@ -1,4 +1,4 @@
-public class subArraySumdivByK {
+public class SubArraySumdivByK {
 
     public static int subArraySumCount(int arr[], int k) {
         int count = 0;

@@ -1,4 +1,4 @@
-public class binarySearch {
+public class BinarySearch {
 
     public static int binSearch(int nums[], int target) {
         int start = 0;

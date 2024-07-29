@@ -1,13 +1,4 @@
-import java.util.Arrays;
-
-public class FirstAndLastOccurrence {
-
-    public int[] searchRange(int[] nums, int target) {
-        int[] ans = { -1, -1 };
-        ans[0] = helperFunction(nums, target, true); // find first occurrence
-        ans[1] = helperFunction(nums, target, false); // find last occurrence
-        return ans;
-    }
+public class InfiniteArray {
 
     public int helperFunction(int nums[], int target, boolean isFirstOccurrence) {
         int idx = -1;
@@ -33,10 +24,6 @@ public class FirstAndLastOccurrence {
     }
 
     public static void main(String[] args) {
-        int nums[] = { 5, 7, 7, 7, 7, 8, 8, 10 };
-        // int nums[] = { 1 };
-        int target = 7;
-        FirstAndLastOccurrence searchRangeAns = new FirstAndLastOccurrence();
-        System.out.println(Arrays.toString(searchRangeAns.searchRange(nums, target)));
+        
     }
 }

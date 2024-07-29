@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class removeDuplicatesFromSortedArr {
+public class RemoveDuplicatesFromSortedArr {
 
     // TC - O(n * log n + N )
     public static int removeDuplicates(int[] nums) {
