@@ -42,8 +42,21 @@ public class CountMinSwaps {
         return (diff == 0) ? swapCount : -1;
     }
 
-    public static int minSwapsEasyApproach(String str) {
-        
+    public static int minSwapsEasyApproach(String S) {
+        int countOdd = 0, countEven = 0;
+        for (int i = 0; i < S.length(); i++) {
+            if (i % 2 == 0) {
+                if (S.charAt(i) == '1')
+                    countEven++;
+            } else {
+                if (S.charAt(i) == '1')
+                    countOdd++;
+            }
+        }
+        int diff = Math.abs(countOdd - countEven);
+        if (diff % 2 != 0)
+            return -1;
+        return diff / 2;
     }
 
     public static void main(String[] args) {
