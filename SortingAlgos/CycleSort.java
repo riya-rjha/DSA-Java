@@ -21,7 +21,7 @@ public class CycleSort {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 3, 1, 5, 2, 4 };
+        int arr[] = { 4, 3, 2, 7, 8, 3, 1, 2 };
         cyclicSort(arr);
         printArr(arr);
     }
