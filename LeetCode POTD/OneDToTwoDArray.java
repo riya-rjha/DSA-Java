@@ -4,16 +4,15 @@ public class OneDToTwoDArray {
 
     public int[][] construct2DArray(int[] original, int m, int n) {
         int[][] arr = new int[m][n];
-        if (original.length > m * n) {
+        if (original.length != m * n) {
             return arr;
         }
-        for (int i = 0; i < n; i++) {
-            arr[0][i] = original[i];
-        }
-        for (int i = 0; i < m; i++) {
-            for (int j = n; j < 2 * n; j++) {
-                arr[i][j] = original[i];
-            }
+        for (int i = 0; i < arr.length; i++) {
+            // start from index 0, then add n, that is value of columns
+            // for each next row
+            // for ending point, use the start index and add every time
+            // value of column length
+            arr[i] = Arrays.copyOfRange(original, i * n, i * n + n);
         }
         return arr;
     }
