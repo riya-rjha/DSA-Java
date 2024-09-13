@@ -13,15 +13,18 @@ public class CycleSort {
     }
 
     static void cyclicSort(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] != i + 1) {
+        int i = 0;
+        while (i < arr.length) {
+            if (arr[i] != arr[arr[i] - 1]) {
                 swapArr(arr, i, arr[i] - 1);
+            } else {
+                i++;
             }
         }
     }
 
     public static void main(String[] args) {
-        int arr[] = { 4, 3, 2, 7, 8, 3, 1, 2 };
+        int arr[] = { 4, 3, 1, 2 };
         cyclicSort(arr);
         printArr(arr);
     }
