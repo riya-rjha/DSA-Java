@@ -64,7 +64,7 @@ public class AddTwoNoLL {
         // System.out.println("Value of number in func: " + number);
         ListNode head = null;
         ListNode curr = null;
-        
+
         if (number == 0) {
             return new ListNode(0);
         }
@@ -84,7 +84,7 @@ public class AddTwoNoLL {
             }
             number /= 10; // Remove the last digit
         }
-        
+
         return head;
     }
 
@@ -109,6 +109,30 @@ public class AddTwoNoLL {
             result = result.next;
         }
         System.out.println();
+    }
+
+    // Optimized Approach
+    // Above method does not work for BigIntegers - 5 testcases failed
+
+    static ListNode addTwoNumbersOptimized(ListNode l1, ListNode l2) {
+        ListNode dummy = new ListNode(-1);
+        ListNode curr = dummy;
+        int carry = 0;
+        while (l1 != null || l2 != null || carry != 0) {
+            int sum = carry;
+            if (l1 != null) {
+                sum += l1.val;
+                l1 = l1.next;
+            }
+            if (l2 != null) {
+                sum += l2.val;
+                l2 = l2.next;
+            }
+            curr.next = new ListNode(sum % 10);
+            carry = sum / 10;
+            curr = curr.next;
+        }
+        return dummy.next;
     }
 
     public static void main(String[] args) {
@@ -155,7 +179,7 @@ public class AddTwoNoLL {
         lst2.next.next = new ListNode(4);
 
         // Adding the two numbers
-        ListNode result = addTwoNumbers(lst1, lst2);
+        ListNode result = addTwoNumbersOptimized(lst1, lst2);
         printLL(result);
 
         // ListNode t1 = reverseLL(lst1);
