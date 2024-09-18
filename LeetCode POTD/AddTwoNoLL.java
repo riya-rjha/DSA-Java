@@ -121,6 +121,7 @@ public class AddTwoNoLL {
         while (l1 != null || l2 != null || carry != 0) {
             int sum = carry;
             if (l1 != null) {
+                System.out.println("Val of l1: " + l1.val);
                 sum += l1.val;
                 l1 = l1.next;
             }
@@ -145,6 +146,9 @@ public class AddTwoNoLL {
         ListNode l2 = new ListNode(5);
         l2.next = new ListNode(6);
         l2.next.next = new ListNode(4);
+
+        ListNode res = addTwoNumbersOptimized(l1, l2);
+        printLL(res);
 
         // // Reverse a Linked List
         // ListNode result = reverseLL(l2);
