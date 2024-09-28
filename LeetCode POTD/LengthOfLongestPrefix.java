@@ -33,8 +33,7 @@ public class LengthOfLongestPrefix {
         }
         return max;
     }
-
-    // Optimized approach using Tries
+    
 
     public static void main(String[] args) {
         int[] arr1 = { 1, 10, 100 };
