@@ -30,7 +30,7 @@ public class MinimumSession {
             System.out.println(countSessions(d, x, y));
 
         }
-
+        sc.close();
     }
 
 }
