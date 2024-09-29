@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class FindFactorialUptoN {
 
-    // Brute Force
+    // Non-recursive approach + Brute Force
     static boolean isFactChecker(long n) {
         long fact = 1;
         for (long i = 1; i <= n; i++) {
