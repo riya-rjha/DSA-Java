@@ -10,7 +10,7 @@ public class ReorganizeArr {
             ans.add(-1);
         }
         for (int i = 0; i < arr.size(); i++) {
-            if (arr.get(i) >= 0 && arr.get(i) < ans.size()) {
+            if (arr.get(i) != -1 && arr.get(i) < ans.size()) {
                 ans.set(arr.get(i), arr.get(i));
             }
         }
