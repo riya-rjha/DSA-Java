@@ -60,6 +60,3 @@ Follow the steps to get the correct answer:
 4. Create a Priority Queue & by default Java defines the priority queue as a minHeap. Use comparator to reverse the minHeap, thus converting it into a maxHeap.
 5. Check for every iteration upto k(atmost projects) if current capital is less than or equal to w, then add the profit in the maxHeap.
 6. If heap turns out to be empty, break from the loop otherwise continue adding the profit stored in the maxHeap by polling it and add to w.
-
-## Sum of Square Numbers
-
