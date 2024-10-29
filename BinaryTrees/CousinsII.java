@@ -1,36 +1,11 @@
 package BinaryTrees;
 
+import static BinaryTrees.PrintTree.printBinaryTree;
+import static BinaryTrees.TreeNodeUtil.TreeNode;
+
 import java.util.*;
 
 public class CousinsII {
-
-    static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
-    static void printBinaryTree(TreeNode root) {
-        if (root == null) {
-            return;
-        }
-        printBinaryTree(root.left);
-        System.out.print(root.val + "->");
-        printBinaryTree(root.right);
-    }
 
     static TreeNode replaceValueInTree(TreeNode root) {
         Queue<TreeNode> queue = new LinkedList<>();

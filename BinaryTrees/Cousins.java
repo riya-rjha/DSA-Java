@@ -1,37 +1,9 @@
 package BinaryTrees;
 
 import java.util.*;
+import static BinaryTrees.TreeNodeUtil.TreeNode;
 
 public class Cousins {
-
-    static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
-    // Inorder Traversal of a Binary Tree
-    static void printBinaryTree(TreeNode root) {
-        if (root == null) {
-            return;
-        }
-        printBinaryTree(root.left);
-        System.out.print(root.val + "->");
-        printBinaryTree(root.right);
-    }
 
     static boolean isCousins(TreeNode root, int x, int y) {
         if (root == null) {

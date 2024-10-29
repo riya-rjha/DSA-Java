@@ -1,36 +1,9 @@
 package BinaryTrees;
 
 import java.util.*;
+import static BinaryTrees.TreeNodeUtil.TreeNode;
 
 public class KthLargestSum {
-
-    static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
-    static void printBinaryTree(TreeNode root) {
-        if (root == null) {
-            return;
-        }
-        printBinaryTree(root.left);
-        System.out.print(root.val + "->");
-        printBinaryTree(root.right);
-    }
 
     static long getKthVal(List<Long> lst, int k) {
         for (int i = 0; i < lst.size(); i++) {
