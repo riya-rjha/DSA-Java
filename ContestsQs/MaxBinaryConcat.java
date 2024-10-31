@@ -8,7 +8,7 @@ class Solution {
         for (int num : nums) {
             lst.add(Integer.toBinaryString(num));
         }
-        Collections.sort(lst, (a, b) -> (b+a).compareTo(a + b));
+        Collections.sort(lst, (a, b) -> (b + a).compareTo(a + b));
         String newStr = "";
         for (String str : lst) {
             newStr += str;
