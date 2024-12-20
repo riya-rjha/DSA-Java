@@ -1,5 +1,4 @@
-package CodeForces;
-import java.util.*;
+import java.util.Scanner;
 
 public class C_Hard_Problem {
     public static void main(String[] args) {
@@ -10,47 +9,14 @@ public class C_Hard_Problem {
             int a = sc.nextInt();
             int b = sc.nextInt();
             int c = sc.nextInt();
-            int firstRow = m;
-            int secondRow = m;
-            long count = 0;
-
-            if (a < firstRow) {
-                count += a;
-                firstRow = firstRow - a;
-            } else {
-                count += firstRow;
-                firstRow = 0;
-            }
-
-            if (b < secondRow) {
-                count += b;
-                secondRow = secondRow - b;
-            } else {
-                count += secondRow;
-                secondRow = 0;
-            }
-
-            if (c <= firstRow) {
-                count += c;
-                firstRow = firstRow - c;
-                c = 0;
-            } else {
-                count += firstRow;
-                c = c - firstRow;
-                firstRow = 0;
-            }
-
-            if (c <= secondRow) {
-                count += c;
-                secondRow = secondRow - c;
-                c = 0;
-            } else {
-                count += secondRow;
-                c = c - secondRow;
-                secondRow = 0;
-            }
-
-            System.out.println(count);
+            int ans = 0;
+            int rem = 0;
+            ans += Math.min(m, a);
+            rem += m - Math.min(m, a);
+            ans += Math.min(m, b);
+            rem += m - Math.min(m, b);
+            ans += Math.min(c, rem);
+            System.out.println(ans);
         }
         sc.close();
     }

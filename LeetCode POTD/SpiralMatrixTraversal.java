@@ -10,18 +10,22 @@ public class SpiralMatrixTraversal {
         int sc = 0;
         int er = n - 1;
         int ec = m - 1;
-        while (sr < er) {
+        while (sr <= er && sc <= ec) {
             for (int j = sc; j <= ec; j++) {
                 ans.add(matrix[sr][j]);
             }
             for (int i = sr + 1; i <= er; i++) {
                 ans.add(matrix[i][ec]);
             }
-            for (int j = ec - 1; j >= sc; j--) {
-                ans.add(matrix[er][j]);
+            if (sr < er) {
+                for (int j = ec - 1; j >= sc; j--) {
+                    ans.add(matrix[er][j]);
+                }
             }
-            for (int i = er - 1; i >= sr + 1; i--) {
-                ans.add(matrix[i][sc]);
+            if (sc < ec) {
+                for (int i = er - 1; i >= sr + 1; i--) {
+                    ans.add(matrix[i][sc]);
+                }
             }
             sr++;
             sc++;
