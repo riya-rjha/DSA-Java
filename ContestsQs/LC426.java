@@ -43,9 +43,9 @@ public class LC426 {
         System.out.println(smallestNumber(n));
         int[] nums = { -85, -85, 828 };
         System.out.println(getLargestOutlier(nums));
-        int[][] edges1 = { { 0, 1 }, { 0, 2 }, { 2, 3 }, { 2, 4 } };
-        int[][] edges2 = { { 0, 1 }, { 0, 2 }, { 0, 3 }, { 2, 7 }, { 1, 4 }, { 4, 5 }, { 4, 6 } };
-        int k = 2;
-        System.out.println(Arrays.toString(maxTargetNodes(edges1, edges2, k)));
+        // int[][] edges1 = { { 0, 1 }, { 0, 2 }, { 2, 3 }, { 2, 4 } };
+        // int[][] edges2 = { { 0, 1 }, { 0, 2 }, { 0, 3 }, { 2, 7 }, { 1, 4 }, { 4, 5 }, { 4, 6 } };
+        // int k = 2;
+        // System.out.println(Arrays.toString(maxTargetNodes(edges1, edges2, k)));
     }
 }
