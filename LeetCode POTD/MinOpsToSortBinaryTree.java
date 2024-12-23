@@ -1,5 +1,8 @@
+import java.util.Arrays;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Map;
 
 public class MinOpsToSortBinaryTree {
 
@@ -46,8 +49,47 @@ public class MinOpsToSortBinaryTree {
         return root;
     }
 
+    static int calcMinSwaps(int[] arr) {
+        int swaps = 0;
+        int[] temp = Arrays.copyOfRange(arr, 0, arr.length);
+        Arrays.sort(temp);
+        Map<Integer, Integer> hm = new HashMap<>();
+        int k = 0;
+        for (int i : arr) {
+            hm.put(i, k);
+            k++;
+        }
+        for (int i = 0; i < temp.length; i++) {
+            if (arr[i] != temp[i]) {
+                swaps++;
+                int currIndex = hm.get(temp[i]);
+                hm.put(arr[i], currIndex);
+                arr[currIndex] = arr[i];
+            }
+        }
+        return swaps;
+    }
+
     static int minimumOperations(TreeNode root) {
-        
+        int totSwaps = 0;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            int currSize = queue.size();
+            int[] values = new int[currSize];
+            for (int i = 0; i < currSize; i++) {
+                TreeNode currNode = queue.poll();
+                values[i] = currNode.val;
+                if (currNode.left != null) {
+                    queue.add(currNode.left);
+                }
+                if (currNode.right != null) {
+                    queue.add(currNode.right);
+                }
+            }
+            totSwaps += calcMinSwaps(values);
+        }
+        return totSwaps;
     }
 
     static void printTree(TreeNode root) {
@@ -75,6 +117,8 @@ public class MinOpsToSortBinaryTree {
         Integer[] values = { 1, 4, 3, 7, 6, 8, 5, null, null, null, null, 9, null, 10 };
         TreeNode root2 = buildTree(values);
         printTree(root2);
+        System.out.println();
+        System.out.println(minimumOperations(root));
 
     }
 }
