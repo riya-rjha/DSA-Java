@@ -1,4 +1,3 @@
-package CodeForces;
 import java.util.*;
 
 public class A_Line_Breaks {

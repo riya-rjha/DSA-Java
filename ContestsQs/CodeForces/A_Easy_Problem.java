@@ -1,4 +1,3 @@
-package CodeForces;
 import java.util.*;
 
 public class A_Easy_Problem {
