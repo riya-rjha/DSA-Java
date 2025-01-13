@@ -1,0 +1,266 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "RepeatedSubStringPattern",
+            "request": "launch",
+            "mainClass": "RepeatedSubStringPattern",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "A_Kevin_and_Combination_Lock",
+            "request": "launch",
+            "mainClass": "A_Kevin_and_Combination_Lock",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "CF1",
+            "request": "launch",
+            "mainClass": "CF1",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "CF2",
+            "request": "launch",
+            "mainClass": "CF2",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "A_Shohag_Loves_Mod",
+            "request": "launch",
+            "mainClass": "CheatCodes.A_Shohag_Loves_Mod",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "Arr",
+            "request": "launch",
+            "mainClass": "CheatCodes.Arr",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "TestcaseInteger",
+            "request": "launch",
+            "mainClass": "CheatCodes.TestcaseInteger",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "TwoConstants",
+            "request": "launch",
+            "mainClass": "CheatCodes.TwoConstants",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "A_Easy_Problem",
+            "request": "launch",
+            "mainClass": "CodeForces.A_Easy_Problem",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "A_Line_Breaks",
+            "request": "launch",
+            "mainClass": "CodeForces.A_Line_Breaks",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "A_Preparing_for_the_Olympiad",
+            "request": "launch",
+            "mainClass": "CodeForces.A_Preparing_for_the_Olympiad",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "A_Tender_Carpenter",
+            "request": "launch",
+            "mainClass": "CodeForces.A_Tender_Carpenter",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "B_Journey",
+            "request": "launch",
+            "mainClass": "CodeForces.B_Journey",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "B_Normal_Problem",
+            "request": "launch",
+            "mainClass": "CodeForces.B_Normal_Problem",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "B_Transfusion",
+            "request": "launch",
+            "mainClass": "CodeForces.B_Transfusion",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "C_Hard_Problem",
+            "request": "launch",
+            "mainClass": "CodeForces.C_Hard_Problem",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "C_Preparing_for_the_Exam",
+            "request": "launch",
+            "mainClass": "CodeForces.C_Preparing_for_the_Exam",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "C_Uninteresting_Number",
+            "request": "launch",
+            "mainClass": "CodeForces.C_Uninteresting_Number",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "D_Harder_Problem",
+            "request": "launch",
+            "mainClass": "CodeForces.D_Harder_Problem",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "Construct_Permutation",
+            "request": "launch",
+            "mainClass": "Construct_Permutation",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "Distinct_Power",
+            "request": "launch",
+            "mainClass": "Distinct_Power",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "E_Insane_Problem",
+            "request": "launch",
+            "mainClass": "E_Insane_Problem",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "GET",
+            "request": "launch",
+            "mainClass": "GET",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "LC143",
+            "request": "launch",
+            "mainClass": "LeetCode.LC143",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "LC144",
+            "request": "launch",
+            "mainClass": "LeetCode.LC144",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "LC146",
+            "request": "launch",
+            "mainClass": "LeetCode.LC146",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "LC426",
+            "request": "launch",
+            "mainClass": "LeetCode.LC426",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "LC428",
+            "request": "launch",
+            "mainClass": "LeetCode.LC428",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "LC429",
+            "request": "launch",
+            "mainClass": "LeetCode.LC429",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "LC430",
+            "request": "launch",
+            "mainClass": "LeetCode.LC430",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "LC431",
+            "request": "launch",
+            "mainClass": "LeetCode.LC431",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "TCSCode",
+            "request": "launch",
+            "mainClass": "TCSCode",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "TCSCode2",
+            "request": "launch",
+            "mainClass": "TCSCode2",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "TCSMock2",
+            "request": "launch",
+            "mainClass": "TCSMock2",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "demo",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "oa1",
+            "request": "launch",
+            "mainClass": "oa1",
+            "projectName": "DSA-Java-100_d2bc4247"
+        }
+    ]
+}
