@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestIncreasing",
+            "request": "launch",
+            "mainClass": "LongestIncreasing",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
             "name": "RepeatedSubStringPattern",
             "request": "launch",
             "mainClass": "RepeatedSubStringPattern",

@@ -15,6 +15,7 @@ public class Arr {
                 arr[i] = sc.nextInt();
             }
         }
+        Map<Integer, Integer> hm = new HashMap<>();
         sc.close();
 
     }
