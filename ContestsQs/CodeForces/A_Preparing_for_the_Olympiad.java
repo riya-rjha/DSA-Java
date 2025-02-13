@@ -1,3 +1,5 @@
+package CodeForces;
+
 import java.util.*;
 
 public class A_Preparing_for_the_Olympiad {

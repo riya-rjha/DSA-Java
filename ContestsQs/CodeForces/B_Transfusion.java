@@ -1,3 +1,5 @@
+package CodeForces;
+
 import java.util.*;
 
 public class B_Transfusion {

@@ -1,3 +1,5 @@
+package CodeForces;
+
 import java.util.*;
 
 public class C_Uninteresting_Number {
