@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LC437",
+            "request": "launch",
+            "mainClass": "LeetCode.LC437",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "LC150",
+            "request": "launch",
+            "mainClass": "LeetCode.LC150",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "PunishmentNumber",
+            "request": "launch",
+            "mainClass": "PunishmentNumber",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "MinOperationsThreshold",
+            "request": "launch",
+            "mainClass": "MinOperationsThreshold",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
             "name": "MaxAscendingArrSum",
             "request": "launch",
             "mainClass": "MaxAscendingArrSum",
