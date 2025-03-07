@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SpecialDivisorSieveOfEratosthenes",
+            "request": "launch",
+            "mainClass": "SpecialDivisorSieveOfEratosthenes",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "SieveOfEratosthenes",
+            "request": "launch",
+            "mainClass": "SieveOfEratosthenes",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "LC438",
+            "request": "launch",
+            "mainClass": "LC438",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "LetterTilePossibilities",
+            "request": "launch",
+            "mainClass": "LetterTilePossibilities",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "LargestValidSequence",
+            "request": "launch",
+            "mainClass": "LargestValidSequence",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
+            "name": "LC437",
+            "request": "launch",
+            "mainClass": "LC437",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
             "name": "LC437",
             "request": "launch",
             "mainClass": "LeetCode.LC437",

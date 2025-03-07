@@ -4,13 +4,16 @@ public class SpecialDivisorSieveOfEratosthenes {
 
     public static int printPrimes(int l, int r) {
         int n = (int) Math.sqrt(r);
+        System.out.println(n);
         boolean isPrime[] = new boolean[n + 1];
         Arrays.fill(isPrime, true);
         isPrime[0] = isPrime[1] = false;
 
         for (int i = 2; i * i <= n; i++) {
+            System.out.println("i: " + i);
             if (isPrime[i]) {
                 for (int j = i * i; j <= n; j = j + i) {
+                    System.out.println("j: " + j);
                     isPrime[j] = false; // not prime for every multiple of i
                 }
             }
@@ -27,11 +30,11 @@ public class SpecialDivisorSieveOfEratosthenes {
             }
         }
 
-        int notSpecialDivisorCount = (r - l + 1) - specialDivisorCount; 
+        int notSpecialDivisorCount = (r - l + 1) - specialDivisorCount;
         return notSpecialDivisorCount;
     }
 
     public static void main(String[] args) {
-        System.out.println(printPrimes(4, 16));
+        System.out.println(printPrimes(10, 19));
     }
 }
