@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinimumColors",
+            "request": "launch",
+            "mainClass": "MinimumColors",
+            "projectName": "DSA-Java-100_d2bc4247"
+        },
+        {
+            "type": "java",
             "name": "SpecialDivisorSieveOfEratosthenes",
             "request": "launch",
             "mainClass": "SpecialDivisorSieveOfEratosthenes",
